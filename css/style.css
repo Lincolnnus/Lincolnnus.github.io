@@ -97,7 +97,8 @@ header {
       margin-top: -35px; }
       header.header .links a {
         line-height: 50px;
-        margin-right: 10px; }
+        margin-right: 10px;
+        color: #366695; }
         header.header .links a:hover {
           color: #366695; }
     header.header .avatar {
