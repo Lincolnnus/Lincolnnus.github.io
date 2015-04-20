@@ -1,4 +1,0 @@
-Lincolnnus
-==========
-
-My Blog Page
