@@ -28,6 +28,9 @@ body {
 	}
 	color: $main-text;
 	background-color: $background;
+	&.home{
+		background-color: #fff;
+	}
 }
 
 a {
@@ -74,7 +77,20 @@ header {
 	line-height: 200px;
 	text-align: center;
 	background: $color-1;
-
+	.logo{
+	  width: 50px;
+	  height: 50px;
+	  display: inline-block;
+	  position: absolute;
+	  left: 20px;
+	  top: 20px;
+	  line-height: 50px;
+	  font-size: 24px;
+	  color: #fff;
+	  border-radius: 50%;
+	  background-color: #366695;
+	  cursor: pointer;
+	}
 	h1 {
 		color: $color-3;
 		@include font-size(18px);
@@ -86,6 +102,39 @@ header {
 
 		h1 {
 			@include font-size(24px);
+		}
+	}
+	&.header{
+		background: #fff;
+		height: 100%;
+		h1{
+			color: #000;
+			line-height: 100px;
+		}
+		.description{
+			line-height: 20px;
+			font-size: 14px;
+			width: 30%;
+			margin: auto;
+		}
+		.links{
+			line-height: 50px;
+  			margin-top: -35px;
+			a{
+				line-height: 50px;
+				margin-right: 10px;
+				&:hover{
+					color: #366695;
+				}
+			}
+		}
+		.avatar{
+			margin: auto;
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			margin-top: 100px;
+			background: url("../img/shaohuan.jpg") center no-repeat;
 		}
 	}
 }
