@@ -90,8 +90,7 @@ header {
       line-height: 100px; }
     header.header .description {
       line-height: 20px;
-      font-size: 14px;
-      width: 30%;
+      width: 40%;
       margin: auto; }
     header.header .links {
       line-height: 50px;
@@ -412,5 +411,8 @@ header {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0); } }
+@media screen and (max-width: 600px) {
+  header.header .description {
+    width: 70%; } }
 
 /*# sourceMappingURL=style.css.map */

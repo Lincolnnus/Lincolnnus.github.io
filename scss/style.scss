@@ -113,8 +113,7 @@ header {
 		}
 		.description{
 			line-height: 20px;
-			font-size: 14px;
-			width: 30%;
+			width: 40%;
 			margin: auto;
 		}
 		.links{
@@ -440,5 +439,10 @@ header {
 
 	100% {
 		@include transform(translateX(0));
+	}
+}
+@media screen and (max-width: 600px) {
+    header.header .description {
+	  width: 70%;
 	}
 }
