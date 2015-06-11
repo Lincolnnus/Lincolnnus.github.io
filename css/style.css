@@ -421,6 +421,7 @@ header {
     transform: translateX(0); } }
 @media screen and (max-width: 600px) {
   header.header .description {
-    width: 70%; } }
+    width: 70%;
+    margin-bottom: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
